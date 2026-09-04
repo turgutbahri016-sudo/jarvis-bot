@@ -49,52 +49,52 @@ def main_loop():
 
                         # Exakte Telegram-Befehle oder normale Wörter abfangen
                         if text_lower in ["/pizza", "pizza"]:
-                            link = "https://www.ubereats.com/de/category/pizza"
+                            link = "ubereats://feed?category=pizza"
                             antwort = "🍕 *Befehl ausgeführt, Chef!*\nHier ist die Pizza-Auswahl:\n\n[👉 Pizza bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/burger", "burger"]:
-                            link = "https://www.ubereats.com/de/category/burger"
+                            link = "ubereats://feed?category=burger"
                             antwort = "🍔 *Befehl ausgeführt, Chef!*\nHier ist die Burger-Auswahl:\n\n[👉 Burger bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/sushi", "sushi"]:
-                            link = "https://www.ubereats.com/de/category/sushi"
+                            link = "ubereats://feed?category=sushi"
                             antwort = "🍣 *Befehl ausgeführt, Chef!*\nHier ist die Sushi-Auswahl:\n\n[👉 Sushi bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/doener", "döner", "doener"]:
-                            link = "https://www.ubereats.com/de/search?q=D%C3%B6ner"
+                            link = "ubereats://search?q=D%C3%B6ner"
                             antwort = "🥙 *Befehl ausgeführt, Chef!*\nHier ist die Döner-Suche:\n\n[👉 Döner bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/pasta", "pasta", "nudeln"]:
-                            link = "https://www.ubereats.com/de/category/pasta"
+                            link = "ubereats://feed?category=pasta"
                             antwort = "🍝 *Befehl ausgeführt, Chef!*\nHier ist die Pasta-Auswahl:\n\n[👉 Pasta bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/asiatisch", "asiatisch", "china", "chinese"]:
-                            link = "https://www.ubereats.com/de/category/asian"
+                            link = "ubereats://feed?category=asian"
                             antwort = "🥡 *Befehl ausgeführt, Chef!*\nHier ist die asiatische Auswahl:\n\n[👉 Asiatisch bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/tacos", "tacos", "mexikanisch"]:
-                            link = "https://www.ubereats.com/de/category/mexican"
+                            link = "ubereats://feed?category=mexican"
                             antwort = "🌮 *Befehl ausgeführt, Chef!*\nHier ist die mexikanische Auswahl:\n\n[👉 Tacos & Co. bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/chicken", "hähnchen", "chicken"]:
-                            link = "https://www.ubereats.com/de/category/chicken"
+                            link = "ubereats://feed?category=chicken"
                             antwort = "🍗 *Befehl ausgeführt, Chef!*\nHier ist die Hähnchen-Auswahl:\n\n[👉 Hähnchen bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/salat", "salat", "gesund"]:
-                            link = "https://www.ubereats.com/de/category/salad"
+                            link = "ubereats://feed?category=salad"
                             antwort = "🥗 *Befehl ausgeführt, Chef!*\nHier ist die gesunde Auswahl:\n\n[👉 Salate bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
                         elif text_lower in ["/dessert", "süß", "eis", "dessert"]:
-                            link = "https://www.ubereats.com/de/category/dessert"
+                            link = "ubereats://feed?category=dessert"
                             antwort = "🍨 *Befehl ausgeführt, Chef!*\nHier ist die Dessert-Auswahl:\n\n[👉 Süßes & Eis bei Uber Eats öffnen]" + f"({link})"
                             send_message(antwort, sender_id)
 
